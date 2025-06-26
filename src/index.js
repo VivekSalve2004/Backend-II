@@ -1,6 +1,4 @@
 import dotenv from "dotenv"
-// import mongoose from "mongoose";
-// import { DB_NAME } from "./constants";
 import connectDB from "./db/index.js";
 import { app } from "./app.js";
 
@@ -18,9 +16,9 @@ connectDB()
 })
 
 
-
-
 /*
+// import mongoose from "mongoose";
+// import { DB_NAME } from "./constants";
 import express from "express"
 const app = express()
 
